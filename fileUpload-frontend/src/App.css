@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(135deg, #dda1ecbe 0%, #56065fd7 100%), url('/Hokusai.png');
+  color: #2d2d2d;
+  font-family: "Comic Neue", cursive, sans-serif;
+
+/*   background-image: 
+  linear-gradient(135deg, rgba(175, 114, 190, 0.85), rgba(164, 25, 182, 0.85)),
+  url('/Hokusai.png'); */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+margin: 0;
+color: white;
+}

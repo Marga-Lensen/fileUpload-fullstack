@@ -1,0 +1,29 @@
+button {
+  background-color: #d6a4e0; /* heller Lila-Ton */
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #380342; /* dunkler beim Hover */
+}
+input[type="file"] {
+  color: #2c0438;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  font-size: .8rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+h2{
+  font-size: 1.8rem;
+}
