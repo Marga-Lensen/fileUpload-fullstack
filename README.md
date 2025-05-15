@@ -25,7 +25,7 @@ Das Backend-Script erstellt die gesamte Serverstruktur inklusive Upload-Ordner u
 
 ### Führe aus:
 
-*~/fileUpload-project ***$**
+***~/fileUpload-project*** **$**
 _________________________________________
 
 
@@ -49,7 +49,7 @@ Das Script stellt dir einige Fragen zur Konfiguration:
 ## II. 📦 Multer-Konfiguration im Server einrichten
 
 <details>
-<summary>💡 Ausführliche Erklärung & neuen Code anzeigen
+<summary>💡 👉️ Ausführliche Erklärung & neuen Code anzeigen 👇️ (bitte ausklappen!👇️)
 </summary>
 
 
@@ -72,7 +72,7 @@ import { fileURLToPath } from "url";
 ```
 #
 -----------------------------
-#### ⚙️ Nach B. `dotenv.config()` & Middleware:
+#### ⚙️ *Nach* B. `dotenv.config()` & Middleware (*steht schon da im Script!*):
 
 ```js
 dotenv.config();
@@ -196,7 +196,7 @@ npm run dev
 Jetzt bauen wir das Upload-Formular und binden die Upload-Funktionalität über einen API-Service ein.
 
 <details>
-<summary>💡 Ausführliche Erklärung & neuen Code anzeigen
+<summary>💡 👉️ Ausführliche Erklärung & neuen Code anzeigen 👇️ (bitte ausklappen!👇️)
 </summary>
 
 🖝 [Zurück zum Anfang](#inhaltsverzeichnis)
@@ -329,7 +329,7 @@ Nutze `tree` (oder eigene Übersicht), um die Struktur zu checken:
 tree -L 4 -I node_modules
 ```
 
-<details><summary>🌲 Example tree</summary>
+<details><summary>👉️ 🌲 Example tree 👇️ (bitte ausklappen!👇️)</summary>
 
 ```
 .
