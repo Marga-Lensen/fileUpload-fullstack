@@ -73,7 +73,7 @@ import { fileURLToPath } from "url";
 ```
 #
 -----------------------------
-#### ⚙️ *Nach* B. `dotenv.config()` & Middleware (*steht schon da im Script!*):
+#### ⚙️ *Nach* B. `dotenv.config()` & Middleware (*steht schon da im Script!*);
 
 ```js
 dotenv.config();
@@ -84,6 +84,8 @@ app.use(cors());
 ```
 #
 -------------------------------
+
+#### ... kommt dieser wichtige Code; C. Multer Konfiguration:
 
 ```js
 // C. ######### Multer Konfiguration ############################################
