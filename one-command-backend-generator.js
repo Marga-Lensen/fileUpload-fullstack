@@ -157,17 +157,14 @@ import cors from 'cors';
 import dotenv from "dotenv";
 
 dotenv.config();
-
-const app = express();
-
 const PORT = process.env.PORT  // use actually available port from .env
+const app = express();
+app.use(express.json()); // Middleware for JSON parsing
 
 app.use(cors({
   origin: 'http://localhost:5173', // Match this with your frontend URL (later)
   credentials: true
 }));
-
-app.use(express.json()); // Middleware for JSON parsing
 
 // Try connecting to MongoDB; start server anyway even if connection fails
 connect(); // Connect to MongoDB
