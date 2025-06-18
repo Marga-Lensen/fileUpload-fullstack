@@ -8,7 +8,7 @@ Ein direkt einsetzbares Dev-Setup zum Hochladen, Speichern und Anzeigen von Date
 
 - **Frontend:** React, Vite  
 - **Backend:** Express, Multer, MongoDB (Mongoose)  
-- **Styling:** SCSS *(Tailwind optional erweiterbar)*
+- **Styling:** SCSS 
 
 ---
 
