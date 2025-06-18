@@ -8,7 +8,6 @@ Ein direkt einsetzbares Dev-Setup zum Hochladen, Speichern und Anzeigen von Date
 
 - **Frontend:** React, Vite  
 - **Backend:** Express, Multer, MongoDB (Mongoose)  
-- **Styling:** SCSS 
 
 ---
 
@@ -37,9 +36,10 @@ Ein direkt einsetzbares Dev-Setup zum Hochladen, Speichern und Anzeigen von Date
 * ✅ Datei-Upload (Single File)
 * ✅ Multer-Konfiguration mit Speicherziel
 * ✅ Vorschau des Uploads im Frontend
+* ✅ Automatisches Speichern von `createdAt` in MongoDB
 * ⏳ Upload mit Zusatzfeldern (Textinputs, Tags)
 * ⏳ Übersicht / Dateigalerie mit Metadaten
-* ⏳ Automatisches Speichern von `createdAt` in MongoDB
+* 😀 Toggle zwischen "Posten" und "Browsen"
 
 ---
 
