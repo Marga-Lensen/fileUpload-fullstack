@@ -11,7 +11,24 @@ Ein direkt einsetzbares Dev-Setup zum Hochladen, Speichern und Anzeigen von Date
 
 ---
 
+## 🧩 Overview
+Minimal fullstack MERN template focused purely on file upload from a React frontend.
+
+## 🛠️ Features
+- React frontend with basic upload UI
+- Backend with Multer and MongoDB setup (not fully used yet)
+- Files saved to disk (`uploads/` folder)
+
+## 🗺️ Special
+- Uses a one-command backend generator script
+- Serves as a skeleton/template project
+- MongoDB connection configured but not used for data persistence yet
+
+## 📁 Repo
+https://github.com/Marga-Lensen/fileUpload-fullstack
 ## 🗂️ Projektstruktur
+
+---
 
 ```plaintext
 /client
